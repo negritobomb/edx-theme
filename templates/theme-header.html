@@ -7,7 +7,7 @@
 <%block name="navigation_top">
   <div id="su-header">
     <div class="su-container">
-      <a href="http://www.stanford.edu">
+      <a href="http://www.chapingo.mx">
         <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23">
       </a>
     </div>
@@ -25,17 +25,17 @@
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">About</a>
+    <a href="${marketing_link('ABOUT')}">Acerca de</a>
   </li>
 </%block>
 
 ## When authenticated, show both the about page and find courses
 <%block name="navigation_global_links_authenticated">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">About</a>
+    <a href="${marketing_link('ABOUT')}">Acerca de</a>
   </li>
   <li class="nav-global-02">
-    <a href="${marketing_link('COURSES')}">Find Courses</a>
+    <a href="${marketing_link('COURSES')}">Encuentra cursos</a>
   </li>
 </%block>
 
