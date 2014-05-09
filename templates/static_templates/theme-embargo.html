@@ -1,13 +1,12 @@
 <%! from django.utils.translation import ugettext as _ %>
 <%inherit file="../main.html" />
 
-<%block name="pagetitle">${_("This Course Unavailable In Your Country")}</%block>
+<%block name="pagetitle">${_("Este curso no esta disponible en tu regíon")}</%block>
 
 <section class="outside-app">
-<p>${_("Our system indicates that you are trying to access a course at class.stanford.edu from an " +
-       "IP address associated with a country currently subject to comprehensive U.S. " +
-       "economic and trade sanctions.  Stanford University is required to comply with " +
-       "these sanctions regulations, and regretfully, we are not permitted to allow you " +
-       "to access this particular course.  Feel free to browse our catalogue to find other " +
-       "courses you may be interested in taking.")}</p>
+<p>${_("Nuestro sistema indica que tratas de acceder a nuestros cursos desde " +
+       " la dirección IP que se encuentra asociada a una región regulaciones diferentes " +
+       "Universidad Autonoma Chapingo necesita cumplir con ellas. " +
+       "Los sentimos pero no podemos darte acceso a este curso " +
+       "Por favor sientete libre de encontrar otro curso en nuestro repositorio ")}</p>
 </section>
