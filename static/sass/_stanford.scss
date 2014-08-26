@@ -10,23 +10,23 @@
 //-----------------
 
 //Cardinal Color Variables
-$cardinal-red: #855B25;
+$cardinal-red: #7F5322;
 $dark-red: #d31c48; //Link Color
 $cardinal-light: #B78248; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $cardinal-bg: #B78248; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Beige Color Variables
-$beige: #b2aa65;
+$beige: #afa561;
 $beige-60: lighten($beige, 18.5%); //Main Border/HR Color
 $beige-25: lighten($beige, 25%); 
 
 //Sandstone Color Variables
-$sandstone: #ddcf99;
+$sandstone: #ddcd9b;
 $sandstone-50: lighten($sandstone, 9%);
 $sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color 
 
 //Gray Color Variables
-$gray: #3f3c30; //Main Text Color
+$gray: #423f32; //Main Text Color
 $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
 $gray-3: #e9e6df; //Block/Course BG Color
